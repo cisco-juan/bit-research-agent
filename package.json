@@ -1,0 +1,26 @@
+{
+  "name": "bit-research-agent",
+  "version": "1.0.0",
+  "description": "BIT Investigador: un agente de IA desde cero en TypeScript",
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "sdk": "tsx src/cli.ts --sdk",
+    "test": "vitest run",
+    "trampa": "tsx evals/trampa.ts",
+    "typecheck": "tsc"
+  },
+  "author": "Cisco Juan",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.4"
+  },
+  "dependencies": {
+    "@openrouter/ai-sdk-provider": "^3.1.0",
+    "ai": "^7.0.140",
+    "zod": "^4.6.7"
+  },
+  "type": "module"
+}
